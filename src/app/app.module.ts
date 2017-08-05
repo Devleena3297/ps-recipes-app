@@ -5,11 +5,12 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './components/user.component';
 import { AboutComponent } from './components/about.component';
 import { RegComponent } from './components/reg.component';
+import { CreateComponent } from './components/create.component';
 import {routing} from './app.routing';
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent,RegComponent,UserComponent
+    AboutComponent,RegComponent,UserComponent,CreateComponent
   ],
   imports: [
     BrowserModule,
