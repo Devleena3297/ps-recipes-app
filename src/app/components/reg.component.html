@@ -1,0 +1,29 @@
+<html>
+<head>
+    
+    <link href="/src/styles.css" rel="stylesheet">
+    <script>
+    $('.message a').click(function(){
+   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});
+        
+        
+    </script>
+    </head>
+<body>
+    
+    <div class="login-page">
+  <div class="form">
+      <h1 align="center">Register</h1>
+    <form class="rf" id="rfq">
+      <input type="text" placeholder="name"/>
+      <input type="password" placeholder="password"/>
+      <input type="text" placeholder="email address"/>
+      <button>create</button>
+      <p class="message">Already registered? <a routerLink="/about">Sign In</a></p>
+    </form>
+    
+  </div>
+</div>
+    </body>
+</html>
